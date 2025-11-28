@@ -52,6 +52,32 @@ ls.remove("xyz")
 print(ls)
 
 
+print("-----copy list--------")
+ls1=ls.copy()
+print(ls1)
 
+
+print("--------print all data using for loop-------")
+for i in ls:
+    print(i)
+
+print("----")
+
+for i in range(0,7):    # 2<7              0 to 6
+    print(ls[i])
+
+# for i in range(0,len(ls)):    # 2<7              0 to 6
+#     print(ls[i])
+
+print("----")
+
+for i in range(1,5):    # 2<7              0 to 2
+    print(ls[i])
+
+
+print("--------print list in reverse order-------")
+print(ls)
+ls.reverse()
+print(ls)
 
 
