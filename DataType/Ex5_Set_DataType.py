@@ -28,7 +28,7 @@ print(st)               #   {5, 101, 'mahesh', 'A', 56.1}
 st.pop()
 print(st)
 
-print("--------")
+print("----print all data----")
 for i in st:
     print(i)
 
@@ -36,12 +36,6 @@ print("----Copying set----")
 st1=st.copy()
 print(st1)          #{56.1, 'A', 101, 'mahesh'}
 
-
-print("--------------sorting operation-----------------")
-st2={50,30,10,40,60,50}
-print(st2)
-st2=sorted(st2)
-print(st2)        #[10, 30, 40, 50, 60]
 
 print("----clear set----")
 st3={"mahesh",101,'A',56.1,101,101}
@@ -53,12 +47,22 @@ del st3
 # print(st3)
 
 
-
 print("-------convert set to list---------")
 st4={50,30,10,40,60,50}
 print(st4)
 ls=list(st4)
 print(ls)
+
+
+print("--------------sorting operation-----------------")
+st2={50,30,10,40,60,50}
+print(st2)
+st5=sorted(st2)     #it will sort data from set & convert into list object
+print(st5)        #[10, 30, 40, 50, 60]
+print(type(st5))        #<class 'list'>
+
+
+
 
 
 
