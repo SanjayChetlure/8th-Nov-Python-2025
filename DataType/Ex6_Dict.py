@@ -27,3 +27,21 @@ print("-----check key exist in dict -----")
 print("Amol" in dict1)     # True
 
 
+print("-----get all Keys-----")
+allKeys=dict1.keys()     #["Amol", "mahesh","Omkar"]
+for singleKey in allKeys:
+    print(singleKey)
+
+
+print("-----get all values-----")
+allValues=dict1.values()
+for singleValue in allValues:  #[65.1, 77.1, 65.1]
+    print(singleValue)
+
+
+print("----get all key-value(item)-----")
+allItems=dict1.items()
+for key,value in allItems:
+    print(key,"=",value)
+
+
