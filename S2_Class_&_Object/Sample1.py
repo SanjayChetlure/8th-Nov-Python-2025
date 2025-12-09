@@ -1,3 +1,4 @@
+#Ex1: non-static / Instance method
 
 class Demo1:            #class declaration
     #class body
