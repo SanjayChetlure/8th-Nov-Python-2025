@@ -1,11 +1,25 @@
 
-s1="Velocity"
+s1="velocity"
 s2="ABCD"
 s3="abcd"
 s4="my name is abc"
 s5="abcaba"
 s6=" hi "
+s7="1234"
+s8="abc123"
+s9="  "
+s10="my name is abc is abc"
 
+
+print(s3.capitalize())        #Velocity  -> capitalize 1st char of string
+print(s4.title())            #converts first char of each word to uppercase
+
+print(s1.isalpha())        #true
+print(s7.isdigit())        #true
+print(s8.isalnum())        #true
+print(s9.isspace())        #true
+print(s10.count("i"))     #2
+print("----------------")
 
 print(s2+s3)      #ABCDabcd        #combine multiple strings
 
