@@ -18,7 +18,7 @@ num2=0
 print("program started")
 try:
     print(num1/num2)          #10/0      #risky code
-except ZeroDivisionError as e:          #expected exception name
+except ZeroDivisionError:          #expected exception name
     print("Zero Division Error handled")
 
 print("hi ")
