@@ -69,6 +69,14 @@ print(s4.endswith("abc"))        #true
 print("------------")
 
 
+s5="my name is abc"
+
+listObj=s5.split()   #[my(0)    name(1)    is(2)     abc(3)]
+print(len(listObj))
+print(listObj[3])
+
+
+
 
 
 
